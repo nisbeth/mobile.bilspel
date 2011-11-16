@@ -1,39 +1,48 @@
 $(document).ready(function(){
-  $('#home').click(function(){
-    $('#content').load('index.php #content');
+  $('#home').live("click", function(){
+    $('#content').load('index.php #top_index');
    /*   $('#nav').slideToggle(); /* toggle ? */
    });
 
-    $('#about').click(function(){
+    $('#about').live("click", function(){
       $('#content').load('content.php #about_content');
       /*  $('#nav').slideToggle(); /* fadeOut ? */
    });
-
-    $('#contact').click(function(){
-      $('#content').load('content.php #contact_content');
-     /*   $('#nav').slideToggle(); /* fadeOut ? */
-   });
    
-    $('#download').click(function(){
-      $('#content').load('content.php #download_content');
+    $('#download').live("click", function(){
+      $('#content').load('contact.php #download_content');
       /*  $('#nav').slideToggle(); /* fadeOut ? */
    });
 
-    $('#trailerlogo').click(function(){
-      $('#content').load('content.php #trailer');
-      /*  $('#nav').slideToggle();  fadeOut ? */
-   });
-
 });
-
-$(document).ready(function () {
-   $('#shareBtn').click(function () {
-       $('#share').hide('500');
-   });
-});
-
 
 /*$('body').append('<div id="progress">Loading...</div>');
     $('#progress').remove();*/
 
 
+$(document).ready(function(){
+   $('#shareBtn').live("click", function(){
+       $('#share').slideToggle('500');
+   });
+   
+   $(document).ready(function(){
+    $('#').fadeIn('1000');
+});
+
+});
+
+
+$(document).ready(function(){
+   $('#android').live("click", function(){
+       $('#simon').toggle('500');
+   });
+   $('#webb').live("click", function(){
+       $('#emil').toggle('500');
+   });
+   $('#iphone').live("click", function(){
+       $('#andreas').toggle('500');
+   });
+   $('#manag').live("click", function(){
+       $('#jonas').toggle('500');
+   });
+});

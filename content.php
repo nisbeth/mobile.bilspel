@@ -1,17 +1,16 @@
-<?
-include 'inc/head.php';
-?>
 
+
+<!-- ABOUT DIV -->
 <div id="about_content">
+    
+    
               <div id="about_wrapper">
                   
-                          <h3>About the game.</h3>
-                          <p id="shareBtn">hej</p> 
-                     
-                  <div id="share">
-                      asdf s
-                  </div>
-             
+        
+                <div id="highscore">
+                <p> { ---- current highscores ---- } </p>
+                <br />
+                </div>
              <p>Welcome to the official site of ”Ett jävla bilspel”, translated to english it goes something like ”A fucking cargame”.
                 Born out of the minds of four university students, “Ett jävla bilspel” is a racing game for Android and iOS.
                 The game mixes the elements of graphics and gameplay of older, classic racing games with the modern technology of the smartphones.
@@ -55,20 +54,14 @@ include 'inc/head.php';
                  <li>Score sharing</li>
              </ul>
             </div>
-</div>
-
-<div id="trailer">
+    <div id="trailer">
     <p>teaser</p>
     <iframe width="310" height="215" src="http://www.youtube.com/embed/SytbW-7_u9E" frameborder="0" allowfullscreen></iframe>
 </div>
-
-<div id="contact_content">
-    <h1>CONTACT</h1>
+<script type="text/javascript" src="script/jquery.js"></script>
+<script type="text/javascript" src="script/iphone.js"></script>    
 </div>
 
-<div id="download_content">
-    <p>asdf</p>
-</div>
 
 <?
 include 'inc/foot.php';

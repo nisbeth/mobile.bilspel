@@ -1,7 +1,8 @@
 body {
     background-color: lightcyan;
     color: #222;
-    font-family: helvetica-neue, helvetica;
+    font-family: monospace;
+    font-weight: bold;
     font-size: 14px;
     margin: 0px;
     padding: 0px;
@@ -120,35 +121,21 @@ body {
 }
 
 #about_content {
-    
-}
-
-#contact_content {
-    
+    margin: 0px;
 }
 
 #download_content {
-   margin-left: 25px;
-}
-
-#guestbook h2,table{
-    
-}
-
-#guestbook input {
-    margin-bottom: 6px;
+ 
 }
 
 #name {
     width: 244px;
-    height: 20px;
-   
+    height: 20px;  
 }
 
 #cd {
     width: 250px;
-    height: 90px;
-   
+    height: 90px; 
 }
 
 #submit {
@@ -217,17 +204,61 @@ body {
 
 
 #share {
-    
-    height: 50px;
-   
+    display: block;
+    display: none;
+    margin: 0px 3px 10px 3px;
+    padding: 2px;
 }
 
-
+#share ul li {
+    margin: 3px 0px 0px 3px;
+    padding-bottom: 5px;
+}
 
 #shareBtn {
-    height: 30px;
-    width: 30px;
-    position: absolute;
-    top: 120px;
-    left: 260px;
+    height: 25px;
+    width: 28px;
+    float: right;
+    margin-top: -32px;
+    margin-right: 14px;
+}
+
+#footer {
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+}
+
+#footer p {
+    margin-left: 3px;
+    
+}
+
+#emil {
+    display: none;
+}
+
+#jonas {
+    display: none;
+}
+
+#simon {
+    display: none;
+}
+
+#andreas {
+    display: none;
+}
+
+.developer {
+    float: left;
+}
+.developer p,img {
+    margin: 5px 0px 2px 15px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.developer ul li {
+    margin-left: 15px;
 }
